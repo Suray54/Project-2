@@ -1,0 +1,17 @@
+footer {
+  background-color: $primary-color;
+  color: $color-white;
+  font-size: 1rem;
+
+  & .logofooter {
+    padding: 10px 2%;
+    img {
+      width: 40px;
+    }
+
+    & .floating {
+      float: right;
+      padding: 5px;
+    }
+  }
+}

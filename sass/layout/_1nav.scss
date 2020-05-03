@@ -1,0 +1,65 @@
+/* ---navbar--- */
+
+.navbar {
+  text-transform: uppercase;
+  padding: 0.5rem 6%;
+  background-color: $color-white;
+  border-bottom: 2px solid $color-grey-light;
+
+  &-nav {
+    & .nav-item {
+      margin-left: 3rem;
+    }
+
+    & li a {
+      font-size: 1.4rem;
+      letter-spacing: 1.04px;
+      font-weight: 700;
+      color: $primary-color;
+      line-height: 3rem;
+      position: relative;
+      transition: transform 0.3s ease-in-out;
+
+      &.active {
+        color: $secondary-color;
+        transform: scale(1.1);
+      }
+
+      &:hover {
+        color: $secondary-color;
+        transform: scale(1.1);
+        &::before {
+          width: 80%;
+          transform: scale(1);
+        }
+      }
+
+      &::before {
+        content: "";
+        bottom: 0;
+        left: 10%;
+        border-bottom: 3px solid $primary-color;
+        position: absolute;
+        transition: transform 0.5s ease-in-out;
+        transform: scale(0);
+      }
+    }
+  }
+  & img {
+    width: 12rem;
+  }
+
+  &-toggler {
+    i {
+      color: $primary-color;
+      font-size: 2.2rem;
+    }
+    i:active {
+      color: red;
+    }
+  }
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}

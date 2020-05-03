@@ -1,0 +1,57 @@
+.header {
+  height: 75vh;
+  background-image: url("../img/header.jpg");
+  background-size: 750px;
+  background-repeat: no-repeat;
+  background-position: right;
+  position: relative;
+  text-align: left;
+  &__text-box {
+    position: absolute;
+    top: 32%;
+    left: 5%;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .header {
+    background-position: top;
+
+    &__text-box {
+      top: 10%;
+    }
+  }
+}
+
+.services {
+  margin-top: 5rem;
+  padding: 5rem 5%;
+
+  img {
+    width: 100%;
+  }
+}
+
+.mail-us {
+  padding: 4rem 8%;
+  background-image: url("../img/mail-us.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  form {
+    margin-top: 20px;
+    padding: 5px;
+    input[type="text"] {
+      width: 70%;
+      box-sizing: border-box;
+      text-transform: capitalize;
+      border: 1px solid $secondary-color;
+      border-radius: 4px;
+      font-size: $default-font-size;
+      background-color: white;
+      background-position: 1rem 1rem;
+      background-repeat: no-repeat;
+      padding: 1.2rem 2rem;
+      outline: none;
+    }
+  }
+}

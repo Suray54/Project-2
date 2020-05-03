@@ -1,0 +1,22 @@
+.carousel {
+  &-inner img {
+    width: 100%;
+    height: 550px;
+  }
+  &-indicators li {
+    width: 20px;
+    height: 10px;
+    border-radius: 40%;
+  }
+  &-caption {
+    top: 30%;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .carousel {
+    &-caption {
+      top: 25%;
+    }
+  }
+}

@@ -1,0 +1,11 @@
+.section-cover {
+  height: 55vh;
+  position: relative;
+}
+
+.section--text {
+  position: absolute;
+  top: 50%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+}

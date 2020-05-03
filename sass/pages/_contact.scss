@@ -1,0 +1,73 @@
+.section-contact {
+  background-color: $color-grey-light;
+  padding-bottom: 1rem;
+  & .cover {
+    background-image: url(../img/mail-us.jpg);
+    background-size: cover;
+    background-position: fixed;
+    padding: 10rem;
+  }
+
+  & .contact__main {
+    margin-top: -12rem;
+    margin-bottom: 5rem;
+    padding: 8rem 0;
+    background-color: $color-white;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px #aaaaaa;
+
+    &--map {
+      font-size: 1.4rem;
+      font-weight: 400;
+      padding: 4rem 0rem 0 8rem;
+      &-detail {
+        padding: 0 2rem;
+      }
+      & .icons {
+        & .fa {
+          padding: 0.8rem;
+          font-size: 1.5rem;
+          width: 10%;
+          text-align: center;
+          text-decoration: none;
+
+          &:hover {
+            opacity: 0.7;
+          }
+          &-facebook {
+            background: #3b5999;
+            color: white;
+          }
+          &-twitter {
+            background: #55acee;
+            color: white;
+          }
+          &-instagram {
+            background: #125688;
+            color: white;
+          }
+          &-linkedin {
+            background: #007bb5;
+            color: white;
+          }
+        }
+      }
+    }
+
+    &--form {
+      padding: 6rem 8rem 0 8rem;
+      input[type="text"],
+      select,
+      textarea {
+        background-color: $color-grey-light;
+        width: 100%;
+        padding: 5px 20px;
+        margin: 6px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 1rem;
+        box-sizing: border-box;
+      }
+    }
+  }
+}
