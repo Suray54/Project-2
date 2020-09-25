@@ -64,7 +64,6 @@ body {
   font-size: 2.5rem;
   font-weight: 800;
   letter-spacing: 0.5rem; }
-
 .heading-tertiary--sup {
   display: block;
   font-size: 1.4rem;
@@ -176,16 +175,13 @@ body {
   background-color: #fff;
   border: 2px solid #e1913c;
   color: #e1913c; }
-
 .btn--usual {
   background-color: #e1913c;
   color: #fff; }
-
 .btn:hover {
   color: white; }
   .btn:hover::before {
     transform: scalex(1); }
-
 .btn::before {
   content: "";
   position: absolute;
@@ -237,19 +233,16 @@ body {
 .carousel-inner img {
   width: 100%;
   height: 550px; }
-
 .carousel-indicators li {
   width: 20px;
   height: 10px;
   border-radius: 40%; }
-
 .carousel-caption {
   top: 30%; }
 
 @media only screen and (max-width: 850px) {
   .carousel-caption {
     top: 25%; } }
-
 .heading-cover {
   background-image: url(../img/mail-us.jpg);
   background-size: cover;
@@ -290,7 +283,7 @@ body {
       transition: transform 0.5s ease-in-out;
       transform: scale(0); }
   .navbar img {
-    width: 12rem; }
+    width: 6rem; }
   .navbar-toggler i {
     color: #1b5b7d;
     font-size: 2.2rem; }
@@ -330,7 +323,6 @@ footer {
     background-position: top; }
     .header__text-box {
       top: 10%; } }
-
 .services {
   margin-top: 5rem;
   padding: 5rem 5%; }
@@ -432,3 +424,5 @@ footer {
   top: 50%;
   left: 55%;
   transform: translate(-50%, -50%); }
+
+/*# sourceMappingURL=style.css.map */
